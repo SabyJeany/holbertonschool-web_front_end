@@ -1,39 +1,23 @@
-/* The color values and font family values should be defined as CSS variables */
-
-:root {
---color-primary: #d73953;
---color-black: #090909;
---color-white: #ffffff;
- 
- --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
- --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-*, *::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}   body {
-  font-family: var(--font-family-base);
-  color: var(--color-black);
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #161616;
+    color: #161616;
 }
 
 a {
-  color: #161616;
+    color: #161616;
 }
 
 .visually-hidden {
-  display: none;
+    display: none;
 }
 
 .card-category {
-  color: #D73953;
+    color: #D73953;
 }
 
 .section-tagline {
-  color: #D73953;
+    color: #D73953;
 }
