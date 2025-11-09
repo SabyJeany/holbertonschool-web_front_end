@@ -1,14 +1,12 @@
 /* The color values and font family values should be defined as CSS variables */
 
 :root {
-
-  --color-primary: #d73953;
-  --color-black: #090909;
-  --color-white: #ffffff;
-  
-
-  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+--color-primary: #d73953;
+--color-black: #090909;
+--color-white: #ffffff;
+ 
+ --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 *, *::before,
 *::after {
