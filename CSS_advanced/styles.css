@@ -1,0 +1,43 @@
+/* ===========================
+   Advanced CSS Project
+   Techium Website
+   =========================== */
+
+/* Task 0: Import webfonts */
+
+
+/* ===========================
+   VARIABLES CSS
+   =========================== */
+
+:root {
+  /* Colors */
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  
+  /* Fonts */
+  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* ===========================
+   CSS RESET
+   =========================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===========================
+   GENERAL STYLES
+   =========================== */
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-black);
+}
